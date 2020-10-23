@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Landing Page Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="sectionColor">
+        <header>
+            <a href="#">
+                <img src="./assets/imgs/logo.png" class="logo" alt="logo">
+            </a>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>That's what <br><span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus et odio quis malesuada. Donec
+                    velit lacus, vehicula in ex eget, maximus vehicula odio. Nam at dolor efficitur, tristique ipsum
+                    vel, cursus turpis. Donec sed tortor tellus. Nulla ornare velit dolor, faucibus mollis neque mattis
+                    sed. Aenean diam nunc, scelerisque ut lacus vel, hendrerit dapibus est. Sed elit nibh, placerat a
+                    vehicula quis, finibus sit amet risus. Fusce vulputate lacinia lacus. Sed vel malesuada quam. Nam
+                    imperdiet a leo at iaculis.</p>
+                <a href="#">View All Products</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="./assets/imgs/pepsi_001.png" class="pepsi" alt="Pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./assets/imgs/pepsi_001.png" onclick="imgSlider('./assets/imgs/pepsi_001.png'); changeBgColor('#0062be')" alt="Pepsi Zero"></li>
+            <li><img src="./assets/imgs/pepsi_002.png" onclick="imgSlider('./assets/imgs/pepsi_002.png'); changeBgColor('#1e1e1e')" alt="Pepsi Zero"></li>
+            <li><img src="./assets/imgs/pepsi_003.png" onclick="imgSlider('./assets/imgs/pepsi_003.png'); changeBgColor('#e60c2c')" alt="Pepsi Zero"></li>
+        </ul>
+
+        <ul class="social-icons">
+            <li><a href="#"><img src="./assets/imgs/facebook.png"></a></li>
+            <li><a href="#"><img src="./assets/imgs/twitter.png"></a></li>
+            <li><a href="#"><img src="./assets/imgs/instagram.png"></a></li>
+        </ul>
+
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.pepsi').src = anything
+        }
+        function changeBgColor(color){
+            const sectionColor = document.querySelector('.sectionColor')
+            sectionColor.style.background = color
+        }
+    </script>
+</body>
+
+</html>
