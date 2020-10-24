@@ -1,5 +1,3 @@
-
-
 # Generic(at) Page
 <img src="generic-home/cat-page-gif.gif"/>
 
