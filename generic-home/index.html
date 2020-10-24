@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Lading</title>
+    <title>Responsive - Cat Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,7 +31,7 @@
             <img src="./assets/img/cat-computer.png" alt="">
         </div>
 
-        <ul class="nav">
+        <ul class="nav" id="nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#" class="active">Contact</a></li>
@@ -46,6 +46,18 @@
 
     </section>
 
+    <span class="menu-icon" id="toggle" onclick="menuToggle()"></span>
+
+    <script type="text/javascript">
+        function menuToggle(){
+            var nav = document.getElementById("nav")
+            nav.classList.toggle('active')
+
+            var toggle = document.getElementById("toggle")
+            toggle.classList.toggle('active')
+        }
+    </script>
+    
 </body>
 
 </html>
