@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comercial Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
@@ -38,12 +39,12 @@
 
     <nav id="sideNav">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Offer</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">More</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#offer">Offer</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#footer">More</a></li>
         </ul>
     </nav>
 
@@ -74,23 +75,205 @@
                     <span class="line-2"></span><br>
                     <span class="line-3"></span><br>
                 </div>
-                
+
 
                 <h2>"Fusce sagittis, sem sagittis sollicitudin tempor, lorem tortor consequat
                     leo, eget convallis lorem eros a nulla."</h2>
-                    <h3> - This Person</h3>
+                <h3> - This Person</h3>
             </div>
         </div>
     </section>
 
-    
+
     <!-- features -->
 
     <section id="features">
-        
+        <div class="row">
+            <div class="col">
+                <img src="assets/pic-1.png" alt="">
+                <h4>Learn Anywhere</h4>
+                <p>Switch between your computer, tablet or mobile</p>
+            </div>
+            <div class="col">
+                <img src="assets/pic-2.png" alt="">
+                <h4>Learn Anywhere</h4>
+                <p>Switch between your computer, tablet or mobile</p>
+            </div>
+            <div class="col">
+                <img src="assets/pic-3.png" alt="">
+                <h4>Learn Anywhere</h4>
+                <p>Switch between your computer, tablet or mobile</p>
+            </div>
+        </div>
+
+        <div class="btn">
+            <!-- <div class="line">
+                <span class="line-2"></span><br>
+                <span class="line-3"></span><br>
+            </div> -->
+            <button class="common-btn">Start your Free Trial</button>
+        </div>
     </section>
 
 
+    <!-- courses -->
+
+    <section id="courses">
+        <div class="container row">
+            <div class="left-col">
+                <div class="text">
+                    <h1>Broese out top <br> courses</h1>
+                    <span class="square"></span>
+                    <p>
+                        Festibulum et iaculis odio, vitae tempus mauris. Proin non iaculis est, et fringilla ligula.
+                        Donec
+                        eget viverra magna, eu malesuada est. Vivamus tincidunt euismod purus eget volutpat. Ut
+                        venenatis
+                        viverra ante, vehicula feugiat
+                    </p>
+
+                    <button class="common-btn">View All</button>
+
+                    <div class="line">
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-col">
+                <img src="assets/course.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- offer -->
+
+    <section id="offer">
+        <div class="left-col">
+            <img src="assets/offer.png" alt="">
+        </div>
+
+        <div class="right-col">
+            <div class="text">
+                <h1>We have
+                    <br>the best offer
+                </h1>
+                <span class="square"></span>
+                <p>
+                    Vestibulum et iaculis odio, vitae tempus mauris. Proin non iaculis est, et fringilla ligula. Donec
+                    eget viverra magna, eu malesuada est. Vivamus tincidunt euismod purus eget volutpat. Ut venenatis
+                    viverra ante, vehicula feugiat ipsum mattis ac. Pellentesque tristique lacus semper, hendrerit nulla
+                    quis, sollicitudin diam.
+                </p>
+
+                <button class="common-btn">View All</button>
+
+                <div class="line">
+                    <!-- <span class="line-1"></span><br> -->
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span><br>
+                </div>
+
+
+                <h2>"Fusce sagittis, sem sagittis sollicitudin tempor, lorem tortor consequat
+                    leo, eget convallis lorem eros a nulla."</h2>
+                <h3> - This Person</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact -->
+
+    <section id="contact">
+        <div class="container row">
+            <div class="contact-left-col">
+                <h1>Sign up to see more</h1>
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <div class="btn-box">
+                        <button class="common-btn">Sign Up</button>
+                        <button class="common-btn">Sign Up</button>
+                    </div>
+
+                </form>
+
+                <div class="line">
+                    <!-- <span class="line-1"></span><br> -->
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span><br>
+                </div>
+            </div>
+
+            <div class="contact-right-col">
+                <img src="assets/contact.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section id="footer">
+        <div class="container footer-row">
+
+            <hr>
+
+            <div class="left-col">
+                <div class="links">
+                    <div class="title">
+                        <h4>Products</h4>
+                        <small>Our Plan</small><br>
+                        <small>Our Plan</small>
+                    </div>
+
+                    <div class="title">
+                        <h4>Products</h4>
+                        <small>Our Plan</small><br>
+                        <small>Our Plan</small>
+                    </div>
+
+                    <div class="title">
+                        <h4>Products</h4>
+                        <small>Our Plan</small><br>
+                        <small>Our Plan</small>
+                    </div>
+
+                    <div class="title">
+                        <h4>Products</h4>
+                        <small>Our Plan</small><br>
+                        <small>Our Plan</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-col">
+                <div class="info">
+                    <div class="copyright-text">
+                        <small>andrezzaandrade@hotmail.co.uk</small><br>
+                        <small>Copyright © 2020</small>
+                    </div>
+
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="">
+                        <button class="common-btn">English</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- social icons -->
+    <div class="social-icons">
+        <img src="assets/facebook.png" alt="">
+        <img src="assets/instagram.png" alt="">
+        <img src="assets/twitter.png" alt="">
+        <img src="assets/linkedin.png" alt="">
+    </div>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
